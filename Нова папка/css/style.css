@@ -1,0 +1,134 @@
+:root {
+    --main-text-color: #626262;
+    --heading-color: #B4AD9E;
+    --nav-link-color: #7D7D7D;
+    --accent-color: #03A9F4;
+    --bg-color: #FFFFFF;
+    --border-btn-color: #626262;
+    --font-family: "Playfair Display", sans-serif;
+    --second-family: "Ubuntu", sans-serif;
+  }
+
+  body{
+background: #000000;
+
+  }
+
+
+  .header{
+  padding-top: 71px;
+  padding-bottom: 26px; ;
+}
+
+.header_link{
+    color: var(--nav-link-color);
+}
+
+.current{
+  color: var(--accent-color);
+}
+
+.header_flex{
+  display: flex;
+}
+
+.header_list{
+display:flex ;
+justify-content: center;
+gap: 50px;
+
+}
+.header_logo{
+  margin-right: 100px;
+}
+
+.header_button{
+  margin-left: auto;
+}
+
+body{
+    color: var(--main-text-color);
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.gallery_topic{
+    font-family: var(--second-family);
+    font-weight: 300;
+    margin-top: 32px;
+    color: var(--heading-color);
+
+}
+
+
+
+
+.gallery_title{
+font-size: 30px;
+margin-top: 32px;
+margin-bottom: 40px;
+}
+.gallery_button{
+  color: #626262;
+  font-family: inherit;
+}
+.container{
+
+  width: 936px;
+padding: 0 15px;
+margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
+outline:1px solid black ;
+
+}
+
+
+
+
+
+
+.gallery-text{
+ margin-top: 40px;
+}
+
+
+
+.container {
+  width: 936px;
+  padding: 0 15px;
+  margin: 0 auto;
+  
+  outline: 1px solid black;
+}
+
+.gallery-list{
+
+gap: 130px 65px;
+}
+
+
+.gallery-item{
+width: 420px;
+margin: 145px 65px 126px 147px;
+}
+
+.gallery {
+  padding-top: 66px;
+  padding-bottom: 66px;
+  background-color: #FFFFFF;
+
+}
+
+.gallery_btn{
+  display: flex;
+margin-right: auto;
+margin-left: auto;
+  border: 1px solid black;
+  padding: 20px 50px;
+  margin-top: 94px;
+}
+

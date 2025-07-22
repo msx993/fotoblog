@@ -106,14 +106,15 @@ outline:1px solid black ;
 }
 
 .gallery-list{
-
+  display: flex;
+flex-wrap: wrap;
 gap: 130px 65px;
 }
 
 
 .gallery-item{
 width: 420px;
-margin: 145px 65px 126px 147px;
+
 }
 
 .gallery {

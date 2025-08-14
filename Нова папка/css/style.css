@@ -63,7 +63,17 @@ body{
 
 }
 
-
+.gallery_subtitle{
+  font-family: var(--second-family);
+  position: absolute;
+ right: 20px;
+ top: 20px;
+ background-color: #FFFFFF;
+ padding: 5px;
+ border-radius: 3px;
+ border: 1px solid black;
+ cursor: pointer;
+}
 
 
 .gallery_title{
@@ -113,6 +123,7 @@ gap: 130px 65px;
 
 
 .gallery-item{
+  position: relative;
 width: 420px;
 
 }
@@ -133,3 +144,18 @@ margin-left: auto;
   margin-top: 94px;
 }
 
+.scroll_to_top_button{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 62px;
+  right: 40px;
+align-items: center;
+border: 1px solid black;
+padding: 12px 36px;
+}
+
+
+html {
+ scroll-behavior: smooth;
+}

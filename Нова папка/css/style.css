@@ -14,7 +14,9 @@ background: #000000;
 
   }
 
-
+.no-scroll{
+  overflow: hidden;
+}
   .header{
   padding-top: 71px;
   padding-bottom: 26px; ;
@@ -158,4 +160,42 @@ padding: 12px 36px;
 
 html {
  scroll-behavior: smooth;
+}
+
+.backdrop{
+position: fixed;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: rgba(161, 156, 156, 0.397);
+opacity: 1;
+visibility: visible;
+}
+
+.backdrop.is-hidden{
+opacity: 0;
+visibility: hidden;
+pointer-events: none;
+}
+
+.text-modal-button{
+
+}
+
+.modal{
+position: absolute;
+width: 300px;
+height: 200px;
+padding: 30px;
+background-color: #fff;
+transform: translate(-50%, -50%);
+top: 50%;
+left: 50%;
+border-radius: 10px;
+
+}
+
+.text-modal-button{
+  padding: 50px 50px;
 }

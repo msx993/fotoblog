@@ -199,3 +199,26 @@ border-radius: 10px;
 .text-modal-button{
   padding: 50px 50px;
 }
+
+
+
+.modal_form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.modal_label{
+  display: flex;
+  flex-direction: column;
+}
+
+.modal_label:focus-within{
+  color: #03A9F4;
+}
+
+.modal_label:focus-within input{
+  border: 1px solid #03A9F4;
+}

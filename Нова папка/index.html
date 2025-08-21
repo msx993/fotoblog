@@ -123,10 +123,30 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-button" data-modal-close>close</button>
-        <p class="text-modal-button">this is my modal</p>
+
+<form class="modal_form">
+  <label class="modal_label">
+    <span>Введіть ім`я</span>
+    <input
+    type="text"
+    plaseholder="Твоє Ім`я"
+    required
+    
+    >
+  </label>
+<label class="modal_label">
+      <span>Введіть пароль</span>
+    <input type="password"
+    plaseholder="Твій пароль"
+    minlength="4"
+     required
+    >
+</label>
+<button class="button_label" type="submit">відправити</button>
+</form>
+
       </div>
     </div>
-
     <a class="scroll_to_top_button" href="#header">go to top</a>
     <script src="./js/modal.js"></script>
   </body>

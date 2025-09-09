@@ -62,19 +62,19 @@ gap: 50px;
 }
 .header_item{
   position: relative;
-transition-property: all;
-  transition-duration: 500ms;
-  transition-delay: 250ms;
 font-family: var(--font-family);
 font-weight: 400;
 font-size: 14px;
 color: #7D7D7D;
+transition-property: all;
+  transition-duration: 500ms;
+  transition-delay: 250ms;
 }
 
 
 .header_item:hover{
-color: var(--accent-color);
-  transform: scale(1.25);
+  color: #03A9F4;
+ transform: scale(1.25);
 }
 
 .header_item:hover+.header_sub_list{
